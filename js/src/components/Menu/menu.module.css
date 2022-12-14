@@ -1,0 +1,33 @@
+.menu {
+  border: var(--border);
+  border-bottom: 0;
+  background-color: var(--background-color);
+  width: 200px;
+}
+
+.menu__title {
+  padding: var(--padding);
+  font-family: var(--font-family);
+  border-bottom: var(--border);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.menu__children {
+  padding: var(--padding);
+
+  & ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: var(--padding);
+  }
+
+  & li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: var(--font-family);
+  }
+}

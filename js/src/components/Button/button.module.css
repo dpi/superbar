@@ -1,0 +1,27 @@
+.button {
+  all: unset;
+  border-right: var(--border);
+  padding: 0 var(--padding);
+  background-color: var(--background-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 100%;
+  min-height: var(--height);
+
+  & > svg {
+    height: 16px;
+    width: 16px;
+  }
+}
+
+.button__wrapper {
+  position: relative;
+}
+
+.button__menu {
+  position: absolute;
+  bottom: calc(var(--height) + 1px);
+  left: 0;
+}

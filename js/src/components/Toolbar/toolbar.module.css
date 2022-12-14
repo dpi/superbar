@@ -1,0 +1,11 @@
+.toolbar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: var(--height);
+  border-top: var(--border);
+  background-color: var(--background-color);
+  display: flex;
+  align-items: stretch;
+}

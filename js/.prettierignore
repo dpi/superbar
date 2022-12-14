@@ -1,0 +1,24 @@
+# Dependencies
+/node_modules
+/vendor
+/bin
+package.json
+package-lock.json
+composer.json
+composer.lock
+composer.patches.json
+.size-snapshot.json
+
+# Drupal
+/app/core
+/app/sites/default/files
+/app/modules/contrib
+/app/themes/contrib
+/app/profiles/contrib
+/app/libraries
+*.yml
+
+# Build
+/app/build
+/design-system/build
+/.next

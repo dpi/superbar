@@ -1,0 +1,7 @@
+superbar:
+  path: '/superbar/api/v1'
+  defaults:
+    _controller: '\Drupal\superbar\Controller\Superbar'
+  requirements:
+    _permission: 'use superbar'
+    _format: 'json'

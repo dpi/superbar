@@ -3,3 +3,5 @@ type: module
 description: 'Backend for Superbar.'
 core_version_requirement: '>=9.4'
 php: 8.1
+dependencies:
+  - entity_route_context:entity_route_context

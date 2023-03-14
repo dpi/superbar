@@ -7,6 +7,10 @@ export default {
 
 export const Button = {
   args: {
-    children: <Edit />,
+    children: (
+      <>
+        <Edit /> Hi
+      </>
+    ),
   },
 }

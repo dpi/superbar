@@ -1,0 +1,6 @@
+superbar:
+  css:
+    theme:
+      js/src/custom-properties.css: { }
+  js:
+    js/dist/superbar.js: { minified: true }

@@ -1,7 +1,7 @@
 name: Superbar
 type: module
 description: 'Backend for Superbar.'
-core_version_requirement: '>=9.4'
+core_version_requirement: '^10'
 php: 8.1
 dependencies:
   - entity_route_context:entity_route_context

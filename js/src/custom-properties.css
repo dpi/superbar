@@ -1,7 +1,7 @@
 :root {
-  --height: 50px;
-  --background-color: #fff;
-  --border: 1px solid rgba(0 0 0 / 10%);
-  --padding: 1rem;
-  --font-family: "Helvetica", sans-serif;
+  --toolbar-height: 50px;
+  --toolbar-background-color: #fff;
+  --toolbar-border: 1px solid rgba(0 0 0 / 10%);
+  --toolbar-padding: 1rem;
+  --toolbar-font-family: "Helvetica", sans-serif;
 }

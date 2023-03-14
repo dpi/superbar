@@ -1,14 +1,17 @@
 .button {
   all: unset;
-  border-right: var(--border);
-  padding: 0 var(--padding);
-  background-color: var(--background-color);
+  border-right: var(--toolbar-border);
+  padding: 0 var(--toolbar-padding);
+  background-color: var(--toolbar-background-color);
   display: flex;
+  gap: 10px;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   height: 100%;
-  min-height: var(--height);
+  min-height: var(--toolbar-height);
+  font-family: var(--toolbar-font-family);
+  line-height: 1rem;
 
   & > svg {
     height: 16px;
@@ -22,6 +25,6 @@
 
 .button__menu {
   position: absolute;
-  bottom: calc(var(--height) + 1px);
+  bottom: calc(var(--toolbar-height) + 1px);
   left: 0;
 }

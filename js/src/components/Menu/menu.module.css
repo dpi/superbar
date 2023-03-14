@@ -1,33 +1,33 @@
 .menu {
-  border: var(--border);
+  border: var(--toolbar-border);
   border-bottom: 0;
-  background-color: var(--background-color);
+  background-color: var(--toolbar-background-color);
   width: 200px;
 }
 
 .menu__title {
-  padding: var(--padding);
-  font-family: var(--font-family);
-  border-bottom: var(--border);
+  padding: var(--toolbar-padding);
+  font-family: var(--toolbar-font-family);
+  border-bottom: var(--toolbar-border);
   font-size: 1rem;
   font-weight: 500;
 }
 
 .menu__children {
-  padding: var(--padding);
+  padding: var(--toolbar-padding);
 
   & ul {
     margin: 0;
     padding: 0;
     display: flex;
     flex-flow: column nowrap;
-    gap: var(--padding);
+    gap: var(--toolbar-padding);
   }
 
   & li {
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: var(--font-family);
+    font-family: var(--toolbar-font-family);
   }
 }

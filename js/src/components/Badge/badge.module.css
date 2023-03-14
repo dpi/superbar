@@ -1,0 +1,14 @@
+.badge {
+  border-radius: 4px;
+  background: #ccc;
+  color: #333;
+  padding: 5px 6px;
+  font-family: var(--toolbar-font-family);
+  display: inline-block;
+}
+
+.badge__wrapper {
+  display: flex;
+  align-items: center;
+  padding: 0 var(--toolbar-padding);
+}

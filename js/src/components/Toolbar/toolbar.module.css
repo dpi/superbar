@@ -3,9 +3,9 @@
   left: 0;
   bottom: 0;
   width: 100vw;
-  height: var(--height);
-  border-top: var(--border);
-  background-color: var(--background-color);
+  height: var(--toolbar-height);
+  border-top: var(--toolbar-border);
+  background-color: var(--toolbar-background-color);
   display: flex;
   align-items: stretch;
 }

@@ -1,0 +1,21 @@
+<?php
+
+use Drupal\Core\Url;
+
+/**
+ * Implements hook_page_bottom().
+ */
+function superbar_page_bottom(array &$page_bottom) {
+  $page_bottom['superbar'] = [
+    '#markup' => '<div id="superbar"></div>',
+    '#attached' => [
+      'library' => ['superbar/superbar'],
+      'drupalSettings' => [
+        'superbar' => [
+          'apiUrl' => Url::fromRoute('superbar')->toString(),
+          'path' => \Drupal::service('path.current')->getPath(),
+        ]
+      ]
+    ],
+  ];
+}
